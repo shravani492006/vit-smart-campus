@@ -1,0 +1,135 @@
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700;800&family=Inter:wght@300;400;500;600;700&family=JetBrains+Mono:wght@400;500;600&display=swap');
+@import 'tailwindcss';
+
+@theme {
+  --color-bg-base: #060c18;
+  --color-bg-surface: #091525;
+  --color-bg-card: #0d1e38;
+  --color-bg-elevated: #112344;
+  --color-border-subtle: #1a3050;
+  --color-border-strong: #254570;
+  --color-accent-cyan: #22d3ee;
+  --color-accent-blue: #3b82f6;
+  --color-accent-green: #34d399;
+  --color-accent-orange: #fb923c;
+  --color-accent-red: #f87171;
+  --color-accent-purple: #a78bfa;
+  --color-accent-yellow: #fbbf24;
+  --color-text-primary: #e2ecff;
+  --color-text-secondary: #7fa8d4;
+  --color-text-muted: #3d5a80;
+  --font-display: 'Manrope', sans-serif;
+  --font-body: 'Inter', sans-serif;
+  --font-mono: 'JetBrains Mono', monospace;
+}
+
+*, *::before, *::after {
+  box-sizing: border-box;
+}
+
+html, body, #root {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+
+body {
+  background-color: #060c18;
+  color: #e2ecff;
+  font-family: 'Inter', sans-serif;
+  -webkit-font-smoothing: antialiased;
+}
+
+/* Thin custom scrollbars */
+* {
+  scrollbar-width: thin;
+  scrollbar-color: #1a3050 transparent;
+}
+::-webkit-scrollbar { width: 4px; height: 4px; }
+::-webkit-scrollbar-track { background: transparent; }
+::-webkit-scrollbar-thumb { background: #1a3050; border-radius: 4px; }
+
+/* Glassmorphism utility */
+.glass {
+  background: rgba(13, 30, 56, 0.75);
+  backdrop-filter: blur(16px);
+  -webkit-backdrop-filter: blur(16px);
+  border: 1px solid rgba(37, 69, 112, 0.6);
+}
+
+.glass-light {
+  background: rgba(17, 35, 68, 0.6);
+  backdrop-filter: blur(12px);
+  -webkit-backdrop-filter: blur(12px);
+  border: 1px solid rgba(37, 69, 112, 0.4);
+}
+
+/* Glow effects */
+.glow-cyan {
+  box-shadow: 0 0 20px rgba(34, 211, 238, 0.25), 0 0 60px rgba(34, 211, 238, 0.08);
+}
+.glow-blue {
+  box-shadow: 0 0 20px rgba(59, 130, 246, 0.3), 0 0 60px rgba(59, 130, 246, 0.1);
+}
+
+/* Route animation */
+@keyframes dash {
+  to { stroke-dashoffset: -20; }
+}
+.route-line {
+  animation: dash 0.8s linear infinite;
+}
+
+/* Pulse for markers */
+@keyframes pulse-ring {
+  0% { transform: scale(0.8); opacity: 1; }
+  100% { transform: scale(2.5); opacity: 0; }
+}
+.pulse-ring {
+  animation: pulse-ring 1.4s ease-out infinite;
+}
+
+/* Algo node transitions */
+.algo-node {
+  transition: fill 0.3s ease, stroke 0.3s ease, r 0.2s ease;
+}
+
+/* Building hover */
+.iso-building {
+  cursor: pointer;
+  transition: filter 0.2s ease;
+}
+.iso-building:hover {
+  filter: brightness(1.25);
+}
+
+/* Scan line effect for algo screen */
+@keyframes scanline {
+  0% { transform: translateY(-100%); }
+  100% { transform: translateY(100vh); }
+}
+
+/* Number counter animation */
+@keyframes count-up {
+  from { opacity: 0; transform: translateY(8px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+
+/* Fade in */
+@keyframes fade-in {
+  from { opacity: 0; transform: translateY(12px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+.fade-in {
+  animation: fade-in 0.35s ease forwards;
+}
+
+/* Slide in from right */
+@keyframes slide-right {
+  from { opacity: 0; transform: translateX(20px); }
+  to { opacity: 1; transform: translateX(0); }
+}
+.slide-right {
+  animation: slide-right 0.3s ease forwards;
+}

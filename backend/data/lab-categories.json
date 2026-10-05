@@ -1,0 +1,32 @@
+[
+  {
+    "id": "it-labs",
+    "name": "IT Labs",
+    "departmentId": "it-dept",
+    "locationId": "it-labs"
+  },
+  {
+    "id": "ce-labs",
+    "name": "Computer Engineering Labs",
+    "departmentId": "ce-dept",
+    "locationId": "ce-labs"
+  },
+  {
+    "id": "ecs-labs",
+    "name": "Electronics & Computer Science Labs",
+    "departmentId": "ecs-dept",
+    "locationId": "ecs-labs"
+  },
+  {
+    "id": "extc-labs",
+    "name": "EXTC Labs",
+    "departmentId": "extc-dept",
+    "locationId": "extc-labs"
+  },
+  {
+    "id": "bme-labs",
+    "name": "Biomedical Labs",
+    "departmentId": "bme-dept",
+    "locationId": "bme-labs"
+  }
+]

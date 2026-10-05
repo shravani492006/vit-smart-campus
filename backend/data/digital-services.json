@@ -1,0 +1,32 @@
+[
+  {
+    "id": "v-live",
+    "name": "V-Live",
+    "description": null
+  },
+  {
+    "id": "v-refer",
+    "name": "V-Refer",
+    "description": null
+  },
+  {
+    "id": "v-print",
+    "name": "V-Print",
+    "description": null
+  },
+  {
+    "id": "lecture-capture",
+    "name": "Lecture Capture",
+    "description": null
+  },
+  {
+    "id": "virtual-labs",
+    "name": "Virtual Labs",
+    "description": null
+  },
+  {
+    "id": "digital-notice-boards",
+    "name": "Digital Notice Boards",
+    "description": null
+  }
+]

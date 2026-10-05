@@ -1,0 +1,242 @@
+[
+  {
+    "id": "block-a",
+    "name": "Block A",
+    "shortLabel": "A",
+    "nodeId": "blockA",
+    "type": "academic",
+    "description": "Block A — contents, floors and department mapping to be verified.",
+    "floorOptions": [
+      "Ground",
+      "1",
+      "2",
+      "3",
+      "4"
+    ],
+    "verified": false,
+    "layout": {
+      "col": 1,
+      "row": 3,
+      "w": 2,
+      "d": 3,
+      "floors": 5,
+      "status": "demo"
+    }
+  },
+  {
+    "id": "block-b",
+    "name": "Block B",
+    "shortLabel": "B",
+    "nodeId": "blockB",
+    "type": "academic",
+    "description": "Block B — contents, floors and department mapping to be verified.",
+    "floorOptions": [
+      "Ground",
+      "1",
+      "2",
+      "3",
+      "4"
+    ],
+    "verified": false,
+    "layout": {
+      "col": 3,
+      "row": 3,
+      "w": 2,
+      "d": 2,
+      "floors": 4,
+      "status": "demo"
+    }
+  },
+  {
+    "id": "block-c",
+    "name": "Block C",
+    "shortLabel": "C",
+    "nodeId": "blockC",
+    "type": "academic",
+    "description": "Block C — contents, floors and department mapping to be verified.",
+    "floorOptions": [
+      "Ground",
+      "1",
+      "2",
+      "3",
+      "4"
+    ],
+    "verified": false,
+    "layout": {
+      "col": 4,
+      "row": 1,
+      "w": 3,
+      "d": 2,
+      "floors": 5,
+      "status": "demo"
+    }
+  },
+  {
+    "id": "block-d",
+    "name": "Block D",
+    "shortLabel": "D",
+    "nodeId": "blockD",
+    "type": "academic",
+    "description": "Block D — contents, floors and department mapping to be verified.",
+    "floorOptions": [
+      "Ground",
+      "1",
+      "2",
+      "3",
+      "4"
+    ],
+    "verified": false,
+    "layout": {
+      "col": 7,
+      "row": 2,
+      "w": 2,
+      "d": 2,
+      "floors": 4,
+      "status": "demo"
+    }
+  },
+  {
+    "id": "block-e",
+    "name": "Block E",
+    "shortLabel": "E",
+    "nodeId": "blockE",
+    "type": "academic",
+    "description": "Block E — contents, floors and department mapping to be verified.",
+    "floorOptions": [
+      "Ground",
+      "1",
+      "2",
+      "3",
+      "4"
+    ],
+    "verified": false,
+    "layout": {
+      "col": 8,
+      "row": 4,
+      "w": 2,
+      "d": 2,
+      "floors": 3,
+      "status": "demo"
+    }
+  },
+  {
+    "id": "block-f",
+    "name": "Block F",
+    "shortLabel": "F",
+    "nodeId": "blockF",
+    "type": "academic",
+    "description": "Block F — contents, floors and department mapping to be verified.",
+    "floorOptions": [
+      "Ground",
+      "1",
+      "2",
+      "3",
+      "4"
+    ],
+    "verified": false,
+    "layout": {
+      "col": 6,
+      "row": 4,
+      "w": 2,
+      "d": 2,
+      "floors": 3,
+      "status": "demo"
+    }
+  },
+  {
+    "id": "canteen-block",
+    "name": "Campus Cafeteria Area",
+    "shortLabel": "CA",
+    "nodeId": "canteen",
+    "type": "food",
+    "description": "Campus Cafeteria Area — contents, floors and department mapping to be verified.",
+    "floorOptions": [
+      "Ground",
+      "1",
+      "2",
+      "3",
+      "4"
+    ],
+    "verified": false,
+    "layout": {
+      "col": 2,
+      "row": 6,
+      "w": 2,
+      "d": 1,
+      "floors": 1,
+      "status": "demo"
+    }
+  },
+  {
+    "id": "den-center",
+    "name": "DEN Area",
+    "shortLabel": "DN",
+    "nodeId": "den",
+    "type": "student",
+    "description": "DEN Area — contents, floors and department mapping to be verified.",
+    "floorOptions": [
+      "Ground",
+      "1",
+      "2",
+      "3",
+      "4"
+    ],
+    "verified": false,
+    "layout": {
+      "col": 7,
+      "row": 6,
+      "w": 2,
+      "d": 1,
+      "floors": 1,
+      "status": "demo"
+    }
+  },
+  {
+    "id": "main-entrance",
+    "name": "Main Entrance",
+    "shortLabel": "GATE",
+    "nodeId": "entrance",
+    "type": "entrance",
+    "description": "Main Entrance — contents, floors and department mapping to be verified.",
+    "floorOptions": [
+      "Ground",
+      "1",
+      "2",
+      "3",
+      "4"
+    ],
+    "verified": false,
+    "layout": {
+      "col": 0,
+      "row": 0,
+      "w": 1,
+      "d": 1,
+      "floors": 1,
+      "status": "demo"
+    }
+  },
+  {
+    "id": "parking-zone",
+    "name": "Parking Zone",
+    "shortLabel": "P",
+    "nodeId": "parking",
+    "type": "utility",
+    "description": "Parking Zone — contents, floors and department mapping to be verified.",
+    "floorOptions": [
+      "Ground",
+      "1",
+      "2",
+      "3",
+      "4"
+    ],
+    "verified": false,
+    "layout": {
+      "col": 0,
+      "row": 0,
+      "w": 1,
+      "d": 1,
+      "floors": 1,
+      "status": "demo"
+    }
+  }
+]

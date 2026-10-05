@@ -1,0 +1,93 @@
+[
+  {
+    "id": "entrance",
+    "label": "Main Gate",
+    "type": "entrance",
+    "x": 310,
+    "y": 390
+  },
+  {
+    "id": "parking",
+    "label": "Parking",
+    "type": "parking",
+    "x": 155,
+    "y": 325
+  },
+  {
+    "id": "blockA",
+    "label": "Block A",
+    "type": "building",
+    "x": 188,
+    "y": 218
+  },
+  {
+    "id": "canteen",
+    "label": "Canteen",
+    "type": "building",
+    "x": 258,
+    "y": 308
+  },
+  {
+    "id": "blockB",
+    "label": "Block B",
+    "type": "building",
+    "x": 310,
+    "y": 188
+  },
+  {
+    "id": "central",
+    "label": "Central Path",
+    "type": "intersection",
+    "x": 369,
+    "y": 168
+  },
+  {
+    "id": "blockC",
+    "label": "Block C",
+    "type": "building",
+    "x": 428,
+    "y": 148
+  },
+  {
+    "id": "blockD",
+    "label": "Block D",
+    "type": "building",
+    "x": 548,
+    "y": 188
+  },
+  {
+    "id": "library",
+    "label": "Library",
+    "type": "facility",
+    "x": 428,
+    "y": 72
+  },
+  {
+    "id": "blockF",
+    "label": "Block F",
+    "type": "building",
+    "x": 508,
+    "y": 278
+  },
+  {
+    "id": "blockE",
+    "label": "Block E",
+    "type": "building",
+    "x": 608,
+    "y": 278
+  },
+  {
+    "id": "den",
+    "label": "DEN",
+    "type": "facility",
+    "x": 558,
+    "y": 362
+  },
+  {
+    "id": "assembly",
+    "label": "Emergency Assembly Point",
+    "type": "assembly_point",
+    "x": 400,
+    "y": 430
+  }
+]

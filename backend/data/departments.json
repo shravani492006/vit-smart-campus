@@ -1,0 +1,172 @@
+[
+  {
+    "id": "it-dept",
+    "name": "Information Technology",
+    "level": "UG",
+    "focusAreas": [
+      "Artificial Intelligence",
+      "Data Science",
+      "Cloud Computing",
+      "Cybersecurity"
+    ],
+    "facilities": [
+      "Modern laboratories",
+      "Advanced computing infrastructure",
+      "Industry-oriented learning",
+      "Workshops",
+      "Internships",
+      "Guest lectures",
+      "Certifications"
+    ],
+    "note": null,
+    "locationId": "it-dept",
+    "labsCategory": null
+  },
+  {
+    "id": "ce-dept",
+    "name": "Computer Engineering",
+    "level": "UG",
+    "focusAreas": [
+      "Artificial Intelligence",
+      "Machine Learning",
+      "Generative AI",
+      "Data Science",
+      "IoT",
+      "Cybersecurity",
+      "Blockchain",
+      "Cloud Computing",
+      "Edge Computing",
+      "AR/VR"
+    ],
+    "facilities": [
+      "AI-enabled laboratories",
+      "Cloud platforms",
+      "TensorFlow",
+      "Docker",
+      "Advanced computing facilities"
+    ],
+    "note": null,
+    "locationId": "ce-dept",
+    "labsCategory": null
+  },
+  {
+    "id": "ecs-dept",
+    "name": "Electronics & Computer Science",
+    "level": "UG",
+    "focusAreas": [
+      "Electronics",
+      "Computer Science",
+      "VLSI",
+      "Embedded Systems",
+      "Computing",
+      "Communication",
+      "AI-based systems"
+    ],
+    "facilities": [
+      "Advanced laboratories",
+      "Computing facilities",
+      "Industry-oriented learning"
+    ],
+    "note": "Evolved from Electronics Engineering; transformed into Electronics & Computer Science in 2022.",
+    "locationId": "ecs-dept",
+    "labsCategory": null
+  },
+  {
+    "id": "extc-dept",
+    "name": "Electronics & Telecommunication Engineering",
+    "level": "UG",
+    "focusAreas": [
+      "Communication Engineering",
+      "Wireless Communication",
+      "Optical Fibre Communication",
+      "Microwave Engineering",
+      "Signal Processing",
+      "Digital Communication",
+      "VLSI",
+      "RF and Microwave Engineering"
+    ],
+    "facilities": [],
+    "note": null,
+    "locationId": "extc-dept",
+    "labsCategory": null
+  },
+  {
+    "id": "bme-dept",
+    "name": "Biomedical Engineering",
+    "level": "UG",
+    "focusAreas": [
+      "Biomedical Technology",
+      "Bio-instrumentation",
+      "Biomaterials",
+      "Biomechanics",
+      "Medical Imaging",
+      "Artificial Intelligence",
+      "Machine Learning",
+      "IoT"
+    ],
+    "facilities": [],
+    "note": null,
+    "locationId": "bme-dept",
+    "labsCategory": null,
+    "professionalTracks": [
+      "AI/ML",
+      "IoT",
+      "Biomedical Technology and Innovation"
+    ],
+    "honoursAreas": [
+      "AI in Healthcare",
+      "Next-Gen Internet of Things",
+      "Medical Imaging Technology"
+    ]
+  },
+  {
+    "id": "mtech-ce",
+    "name": "M.Tech Computer Engineering",
+    "level": "PG",
+    "focusAreas": [],
+    "facilities": [],
+    "note": null,
+    "locationId": "mtech-ce",
+    "labsCategory": null
+  },
+  {
+    "id": "mtech-extc",
+    "name": "M.Tech Electronics & Telecommunication Engineering",
+    "level": "PG",
+    "focusAreas": [],
+    "facilities": [],
+    "note": null,
+    "locationId": "mtech-extc",
+    "labsCategory": null
+  },
+  {
+    "id": "mms",
+    "name": "MMS",
+    "level": "PG",
+    "focusAreas": [],
+    "facilities": [],
+    "note": null,
+    "locationId": "mms",
+    "labsCategory": null
+  },
+  {
+    "id": "phd-ce",
+    "name": "Ph.D. Computer Engineering",
+    "level": "PhD",
+    "focusAreas": [],
+    "facilities": [],
+    "note": null,
+    "locationId": "phd-ce",
+    "labsCategory": null
+  },
+  {
+    "id": "phd-extc",
+    "name": "Ph.D. Electronics & Telecommunication Engineering",
+    "level": "PhD",
+    "focusAreas": [],
+    "facilities": [],
+    "note": null,
+    "locationId": "phd-extc",
+    "labsCategory": null
+  }
+]

@@ -1,0 +1,12 @@
+services:
+  api:
+    build: .
+    ports: ["4000:4000"]
+    environment:
+      ADMIN_API_KEY: ${ADMIN_API_KEY:?set ADMIN_API_KEY in .env}
+      CORS_ORIGIN: ${CORS_ORIGIN:-http://localhost:5173}
+    volumes:
+      - campus-data:/app/storage
+    restart: unless-stopped
+volumes:
+  campus-data:

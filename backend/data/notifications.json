@@ -1,0 +1,9 @@
+[
+  {
+    "id": "n-welcome",
+    "title": "Welcome to VIT Smart Campus",
+    "body": "Campus mapping data is being verified. Items marked \"To be verified\" will be updated.",
+    "createdAt": "2026-09-24T00:00:00.000Z",
+    "level": "info"
+  }
+]
