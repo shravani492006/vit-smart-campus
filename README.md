@@ -919,21 +919,7 @@ The project can evolve into a more advanced smart-campus platform through:
 
 </div>
 
----
 
-## ✦ References
-
-1. Hart, P. E., Nilsson, N. J., & Raphael, B. (1968).  
-   *A Formal Basis for the Heuristic Determination of Minimum Cost Paths.*
-
-2. Dijkstra, E. W. (1959).  
-   *A Note on Two Problems in Connexion with Graphs.*
-
-3. Russell, S. & Norvig.  
-   *Artificial Intelligence: A Modern Approach.*
-
-4. Cormen, Leiserson, Rivest & Stein.  
-   *Introduction to Algorithms.*
 
 ---
 
